@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+            <div id="social_media">
+                <a href="#">
+                    <img src="images/facebook-logo.png" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="images/GitHub_logo.png" alt="Github">
+                </a>
+                <a href="#">
+                    <img src="images/google-logo-png.png" alt="google">
+                </a>
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nombre
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="email">
+                        Correo
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="password">
+                        Contraseña
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="login_button">
+                Login
+            </button>        
+        </form>
+    </main>
+</body>
+</html>
