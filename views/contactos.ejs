@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>
+    <% for (let c of contactos) { %>
+    <p>Nombre: <%= c.name %></p>
+    <p>Telefono: <%= c.phone %></p>
+    <p>Correo: <%= c.email %></p>
+    <p>Mensaje: <%= c.message %></p>
+    <p>Dato: <%= c.date %></p>
+    <p>IP: <%= c.ip %></p>
+    <p>Country: c.country %></p>
+    <% } %>
+
+</body>
+</html>

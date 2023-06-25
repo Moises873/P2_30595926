@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://wwww.google.com/recaptcha/api.js" async defer></script>
+  <title>Angel Navarro</title>
+  <link rel="stylesheet" href="../stylesheets/navarro.css">
+</head>
+<body>
+  <button class="bond">
+    <a style="color: aliceblue;" target="_blank" href="/" class="form_contact">Translate to English</a>
+  </button>
+  <div>
+    <img src="images/Moi.jpg" alt="2x2" width="120" height="120">
+    <h1>Angel Moises Navarro Hernandez</h1>
+    <p>Urbanization the Riberas, Urapes streets house 28</p>
+    <p>phone: 04121461238</p>
+    <fieldset>
+      <legend>General data</legend>
+      <ul>
+        <li><span>Birthdate:</span> 16/08/2003</li>
+        <li><span>Indetification card:</span> 30595926</li>
+        <li><span>Email:</span> angelmnavarro95@gmail.com</li>
+        <li><span>City:</span> Villa de Cura</li>
+        <li><span>Civil Status:</span> Soltero</li>
+        <li><span>Age:</span> 19 years old</li>
+        <li><span>Nacionality:</span> Venezuelan</li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Acamedic training</legend>
+      <ul>
+        <li><span>Primary:</span> U.E.E Juan Antonio Perez Bonaldez</li>
+        <li><span>Secundary:</span> E.T.P San Luis Rey, average technician in Accounting</li>
+        <li><span>Computer Engineering:</span> Experimental University of the Central plains
+          Romulo Gallegos</li>
+        <li>Currently studying in the career, fourth semester</li>
+      </ul>  
+    </fieldset>
+    <fieldset>
+      <legend>Work Experience</legend>
+      <ul>
+        <li>Accounting Administration</li>
+        <li>Web developer</li>
+      </ul>
+    </fieldset>  
+    <fieldset>
+      <legend>Skills</legend>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>javascript</li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>My social Networks</legend>
+      <ul>
+        <li><span>Facebook:</span> Angel Navarro</li>
+        <li><span>Instagram:</span> @angelox_456</li>
+      </ul>
+    </fieldset>
+  </div>
+  <form action="/" method="post">
+    <h2>Contacts</h2>
+    <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <label for="phone">phone</label>
+        <input type="tel" name="phone"id="phone" placeholder="Phone">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+        <input class="btn" type="submit" value="Send">
+    </div>
+    <input  id="time" type="hidden" name="time" value="<$=datas.time$>">
+    <input id="country" type="hidden" name="country" value="<$=datas.country$>">
+</div>
+  <div id="html_element">
+    <div class="g-recaptcha" data-sitekeys="6LdckGYmAAAAAC8AX8Qa4oT6RocJiEaUCOTlF66k"></div>
+  </div>
+</div>
+
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <div class="container_Login">
+    <a href="/auth"> Login with Github </a>
+  </div>
+</form>
+</body>
+</html>
